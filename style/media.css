@@ -1,0 +1,145 @@
+@media(max-width:930px) {
+    .sec4-wrapper {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .first-photo {
+        margin-top: 25px;
+    }
+}
+
+@media(max-width:830px) {
+    .center-box {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:785px) {
+    .first-wrap {
+        flex-direction: column;
+    }
+
+    .icon {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:689px) {
+    .last-img {
+        width: 100%;
+    }
+}
+
+@media(max-width:574px) {
+    .center-link {
+        font-size: 12px;
+    }
+
+    .center-links {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:532px) {
+    .ul {
+        position: fixed;
+        flex-direction: column;
+        align-items: flex-end;
+        top: 0;
+        bottom: 0;
+        right: -100%;
+        padding-top: 50px;
+        backdrop-filter: blur(15px);
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.582);
+        padding-right: 30px;
+        padding-left: 30px;
+        row-gap: 20px;
+        transition: 0.5s linear;
+        padding-bottom: 200px;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        font-size: 24px;
+    }
+
+    .menu:focus+.ul {
+        display: flex;
+        right: 0;
+    }
+
+    .ul::after {
+        bottom: -5px;
+    }
+}
+
+@media(max-width:442px) {
+    .header__title {
+        font-size: 59px;
+    }
+}
+
+@media(max-width:417px) {
+    .header__title {
+        font-size: 55px;
+    }
+}
+
+@media(max-width:391px) {
+    .header__title {
+        font-size: 50px;
+    }
+}
+
+@media(max-width:358px) {
+    .header__title {
+        font-size: 45px;
+    }
+}
+
+@media(max-width:325px) {
+    .header__title {
+        font-size: 42px;
+    }
+}
+
+@media(max-width:396px) {
+    .center-link {
+        font-size: 11px;
+    }
+
+    .center-links {
+        font-size: 11px;
+    }
+}
+
+@media(max-width:393px) {
+    .nature-img img {
+        width: 100%;
+    }
+
+    .inner-box {
+        width: 100%;
+    }
+
+    .section-title {
+        width: auto;
+    }
+
+    .section-text {
+        width: auto;
+    }
+}
+
+@media(max-width:377px) {
+    .mid-ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
